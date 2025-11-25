@@ -11,7 +11,7 @@ def z_algorithm(s: str):
     l = r = 0
     for i in range(1, n):
         if i <= r:
-            Z[i] = min(r - i + 1, Z[i - 1])
+            Z[i] = min(r - i + 1, Z[i - l])
         while i + Z[i] < n and s[Z[i]] == s[i + Z[i]]:
             Z[i] += 1
         if i + Z[i] - 1 > r:
@@ -100,7 +100,7 @@ def lcs_pos(s: str, t: str):
 
 def main():
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    data_dir = os.path.join(base_dir, "data")
+    data_dir = base_dir
 
     transmission1 = read_stream(os.path.join(data_dir, "transmission1.txt"))
     transmission2 = read_stream(os.path.join(data_dir, "transmission2.txt"))
