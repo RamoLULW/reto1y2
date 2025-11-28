@@ -1,0 +1,8 @@
+Nicolas Andre Alfaro Gzz - A00840471
+Worked on the Z-algorithm (pattern_z) and documentation of the part
+José Ángel Alemán Espinosa - A00840849
+Also worked on the Z-algorithm (z_algorithm) and the documentation of the part
+Omar Caballero Caballero - A00840310
+Worked on the Longest Common Substring with Dynamic Programming (lcs_pos) and the documentation of the part
+Emiliano Altamirano Báez - A00838577
+Worked on the Palindrome Detection Expand Around Center (longest_palindrome_pos) and the documentation of the part
